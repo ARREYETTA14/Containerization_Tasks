@@ -14,4 +14,4 @@ EXPOSE 8080
 COPY ./index.html /opt/tomcat/webapps/ROOT/index.html
 CMD ["/opt/tomcat/bin/catalina.sh", "run"]
 
-### http://localhost:8080/index.html
+
